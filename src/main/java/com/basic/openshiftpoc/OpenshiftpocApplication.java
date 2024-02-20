@@ -11,7 +11,7 @@ public class OpenshiftpocApplication {
 	
 	@GetMapping("/")
 	public String getMessgaString() {
-		return "Welcome openshift!!";
+		return "Welcome openshift today!!";
 	}
 
 	public static void main(String[] args) {
